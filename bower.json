@@ -1,0 +1,8 @@
+{
+    "name": "slimphp3_eloquent",
+    "dependencies": {
+        "jquery": "~2.1.4",
+        "bootstrap": "~3.3.6",
+        "normalize-css": "normalize.css#~3.0.3"
+    }
+}

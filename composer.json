@@ -1,0 +1,16 @@
+{
+    "require": {
+        "php": ">=5.5",
+        "ext-mcrypt": "*",
+        "slim/slim": "^3.0",
+        "slim/twig-view": "^2.0",
+        "monolog/monolog": "^1.17",
+        "illuminate/database": "^4.2",
+        "illuminate/container": "*",
+        "illuminate/validation": "*",
+        "illuminate/translation": "*"
+    },
+    "autoload": {
+        "classmap": ["app/libs", "app/models"]
+    }
+}
