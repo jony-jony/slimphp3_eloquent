@@ -11,6 +11,8 @@ use \Psr\Http\Message\ResponseInterface as Response;
  */
 $app->get('/', function(Request $request, Response $response, $args) {
     try {
+        $usersQueryBuilder = $this->db->table('users')->take(10)->lists('user');
+        $usersEloquent = User::take(10)->lists('user');
         $data = [
             'user' => 'developer',
         ];
